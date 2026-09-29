@@ -94,7 +94,7 @@ async function device() {
 }
 
 const page = document.body.dataset.page;
-if (page === "dashboard") { dashboard(); setInterval(dashboard, 5000); setupRanges("chart"); }
+if (page === "dashboard") { dashboard(); setInterval(dashboard, 12000); setupRanges("chart"); }
 if (page === "analytics") setupRanges("chart", "7d", analytics);
 if (page === "alerts") { alerts(); setInterval(alerts, 10000); }
 if (page === "device") { device(); setInterval(device, 5000); }
