@@ -1,7 +1,7 @@
 // Database connection (public read key)
 const DB_URL = "https://czezvzubgsllhghrsyqk.supabase.co/rest/v1/plant_readings";
 const DB_KEY = "sb_publishable_9J5Gk1ZtNavyzWQ9wfYHnQ_lmt6RjDT";
-const ONLINE_MS = 30000;
+const ONLINE_MS = 150000;
 
 async function q(params) {
   const r = await fetch(`${DB_URL}?${params}`, { headers: { apikey: DB_KEY } });
