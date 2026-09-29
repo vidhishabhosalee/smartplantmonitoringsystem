@@ -1,6 +1,6 @@
 // Database connection (public read key)
 const DB_URL = "https://czezvzubgsllhghrsyqk.supabase.co/rest/v1/plant_readings";
-const DB_KEY = "sb_publishable_uNvp_mo1jBGlvH-Fp-cnbw_yj1EyGxb";
+const DB_KEY = "sb_publishable_9J5Gk1ZtNavyzWQ9wfYHnQ_lmt6RjDT";
 const ONLINE_MS = 30000;
 
 async function q(params) {
